@@ -1,0 +1,42 @@
+/* pacifico-regular - latin */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+       url('fonts/pacifico-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/pacifico-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body{
+	font-family: 'Pacifico', sans-serif;
+    font-size: 16px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+    color: red;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+#wrapper {
+    font-size: 1.5em;
+}
+
+#emoji {
+    font-family: serif;
+    font-size: 15em;
+}
+
+#todays-menu {
+    visibility: hidden;
+}
+
+#todays-menu ul{
+    padding: 0;
+    list-style-type: none;
+}
